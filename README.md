@@ -105,7 +105,7 @@
       color: #d63384;
       font-weight: bold;
       margin-top: 20px;
-      animation: pulse 4s infinite ease-in-out; /* Aumentado para 4s */
+      animation: pulse 4s infinite ease-in-out; /* Mantém a animação mais lenta */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -114,9 +114,15 @@
       z-index: 12;
       text-shadow: 1px 1px 4px white;
       position: relative;
-      opacity: 0;
+      opacity: 1; /* Mantém a opacidade alta */
       transition: opacity 4s ease-in-out;
       flex-direction: column;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.05); opacity: 0.9; } /* Aumenta a opacidade mínima */
+      100% { transform: scale(1); opacity: 1; }
     }
 
     .heart {

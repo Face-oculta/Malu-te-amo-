@@ -105,7 +105,7 @@
       color: #d63384;
       font-weight: bold;
       margin-top: 20px;
-      animation: pulse 2s infinite ease-in-out;
+      animation: pulse 4s infinite ease-in-out; /* Aumentado para 4s */
       display: flex;
       justify-content: center;
       align-items: center;

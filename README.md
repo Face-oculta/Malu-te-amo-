@@ -189,7 +189,7 @@
     <p>Desde q vc chegou, tudo ao meu redor ganhou um novo significado. As cores parecem mais vivas, os dias mais leves, e cada momento se tornou precioso.</p>
     <p>Vc tem um brilho q é só seu, uma luz tão intensa q ilumina até os cantos mais escuros da minha alma. Seu sorriso é como um sol radiante, capaz de transformar qualquer dia nublado em um céu azul infinito.</p>
     <p>Cada batida do meu coração sussurra seu nome, como se ele soubesse desde sempre q foi feito pra te amar. Vc é a melodia mais doce da minha vida, meu porto seguro, minha paz em meio ao caos.</p>
-    <p>Com vc, dá vontade de lutar, os desafios se tornam mais fáceis, os sonhos mais possíveis e a felicidade ainda maior. Quero dividir risadas, te apoiar nos momentos difíceis, ser seu ponto e multiplicar momentos inesquecíveis.</p>
+    <p>Com vc, dá vontade de lutar, os desafios se tornam mais fáceis, os sonhos mais possíveis e a felicidade ainda maior. Quero dividir risadas, te apoiar nos momentos difíceis, ser seu porto seguro e multiplicar momentos inesquecíveis.</p>
     <p>Se pudesse, eu te daria o universo inteiro. Mas como não posso, entrego oq tenho de mais puro e verdadeiro: meu coração. 💖</p>
 
     <p class="final">Malu meu amor... vc aceita casar cmg? 🥹💗</p>

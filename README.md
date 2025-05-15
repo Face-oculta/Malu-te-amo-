@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -26,6 +27,7 @@
       overflow-x: hidden;
       position: relative;
       transition: background-color 5s ease-in-out;
+      min-height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
     }
 
     .overlay-bg {

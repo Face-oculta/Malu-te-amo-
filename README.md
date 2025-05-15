@@ -130,6 +130,17 @@
       animation: floatHeart 4s linear forwards;
     }
 
+    @keyframes floatHeart {
+      0% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-100px); /* Mover para cima */
+        opacity: 0; /* Desaparecer */
+      }
+    }
+
     #closing-message {
       display: none;
       opacity: 0;
@@ -247,6 +258,7 @@
         heart.textContent = "❤️";
         document.body.appendChild(heart);
 
+        // Remover o coração após a animação
         setTimeout(() => {
           heart.remove();
         }, 4000);

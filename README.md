@@ -136,7 +136,7 @@
         opacity: 1;
       }
       100% {
-        transform: translateY(-100px); /* Mover para cima */
+        transform: translateY(-150px); /* Mover para cima */
         opacity: 0; /* Desaparecer */
       }
     }
@@ -255,7 +255,6 @@
         heart.classList.add("heart");
         heart.style.left = Math.random() * 100 + "vw"; // Posição aleatória na largura
         heart.style.top = Math.random() * 100 + "vh"; // Posição aleatória na altura
-        heart.textContent = "❤️";
         document.body.appendChild(heart);
 
         // Remover o coração após a animação

@@ -101,18 +101,18 @@
     }
 
     .message-final {
-      font-size: var(--font-final);
-      color: #d63384;
+      font-size: 2rem; /* Mantendo o tamanho original */
+      color: #ff4081; /* Cor mais contrastante */
       font-weight: bold;
       margin-top: 20px;
-      animation: pulse 2s infinite;
+      animation: pulse 1.5s infinite; /* Efeito de pulsação */
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
       min-height: 200px;
       z-index: 12;
-      text-shadow: 1px 1px 4px white;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* Sombra do texto */
       position: relative;
       flex-direction: column;
     }

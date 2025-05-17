@@ -26,7 +26,7 @@
       overflow-x: hidden;
       position: relative;
       transition: background-color 5s ease-in-out;
-      min-height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
+      min-height: 100vh;
     }
 
     .overlay-bg {
@@ -105,7 +105,7 @@
       color: #d63384;
       font-weight: bold;
       margin-top: 20px;
-      animation: pulse 2s infinite; /* Duração da animação ajustada */
+      animation: pulse 2s infinite;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -119,13 +119,13 @@
 
     @keyframes pulse {
       0% { transform: scale(1); }
-      50% { transform: scale(1.05); } /* Cresce */
-      100% { transform: scale(1); } /* Retorna ao tamanho original */
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
     }
 
     .heart {
       position: absolute;
-      font-size: 24px;
+      font-size: 48px; /* Aumentar o tamanho do coração */
       color: red;
       animation: floatHeart 4s linear forwards;
     }
@@ -136,8 +136,8 @@
         opacity: 1;
       }
       100% {
-        transform: translateY(-150px); /* Mover para cima */
-        opacity: 0; /* Desaparecer */
+        transform: translateY(-150px);
+        opacity: 0;
       }
     }
 
@@ -233,26 +233,27 @@
 
       setTimeout(() => {
         document.getElementById("response").style.display = "none";
-      }, 12000); // Aumentado para 12 segundos
+      }, 12000);
 
       setTimeout(() => {
         document.getElementById("light-overlay").style.opacity = "1";
-      }, 8000); // Aumentado para 8 segundos
+      }, 8000);
 
       setTimeout(() => {
         document.getElementById("closing-message").style.display = "block";
         document.getElementById("closing-message").style.opacity = "1";
-      }, 16000); // Aumentado para 16 segundos
+      }, 16000);
 
       setTimeout(() => {
         window.close();
-      }, 24000); // Aumentado para 24 segundos
+      }, 24000);
     }
 
     function createHearts() {
       const heartInterval = setInterval(() => {
         const heart = document.createElement("div");
         heart.classList.add("heart");
+        heart.innerHTML = "❤️"; // Adiciona um coração
         heart.style.left = Math.random() * 100 + "vw"; // Posição aleatória na largura
         heart.style.top = Math.random() * 100 + "vh"; // Posição aleatória na altura
         document.body.appendChild(heart);
